@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Library</h1>
+        <div id="library">
+            <div class="book" data-book-index = "0">
+                <div class="book-info-container">
+                    <span class="book-elem title">The Hobbit</span>
+                    <span class="book-elem author">J.R.R. Tolkien</span>
+                    <span class="book-elem pages">230 pages</span>
+                </div>
+                <div class="button-div">
+                    <button class="book-btn read-btn">Read</button>
+                    <button class="book-btn">Delete</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal">
+            <form id="form">
+                <span id="form-title">New Book</span>
+
+                <div class="form-div">
+                    <span class="form-label">Title: </span>
+                    <input class="input" type="text">
+                </div >
+                
+                <div class="form-div">
+                    <span class="form-label">Author: </span>
+                    <input class="input" type="text">
+                </div>
+
+                <div class="form-div">
+                    <span class="form-label">Number of pages: </span>
+                    <input class="input" type="number">
+                </div>
+
+                <div id="checkbox-div" class="form-div">
+                    <span id="read-checkbox" class="form-label">Did you read it ?</span>
+                    <input type="checkbox">
+                </div>
+
+                <div id="form-btn-div" class="form-div">
+                    <button id="form-close-btn" class="btn">Close</button>
+                    <button id="form-add-btn" class="add-btn btn">Add Book</button>
+                </div>
+            </form>
+        </div>
+    </body>
+    <template>
+            
+    </template>
+    <script src="library.js"></script>
+</html>
